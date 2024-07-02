@@ -65,7 +65,7 @@ ibm-ssp-cm:
     # Specify this to use selector label value for PV-PVC bind
     labelValue: ""
     # Specify this to set storage class name
-    storageClassName: "ibmc-file-gold-gid"
+    storageClassName: "ocs-storagecluster-cephfs-gid"
     # Specify this to set PVC size
     size: 2Gi
     # Specify this to set access mode
